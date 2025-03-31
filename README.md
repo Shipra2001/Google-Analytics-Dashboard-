@@ -10,6 +10,7 @@ A full-stack web app to visualize Google Analytics data with secure OAuth login.
 •	JWT token-based session management
 
 📈 Analytics Data
+
 •	Fetches GA4 metrics (users, page views) via Google APIs
 
 •	Displays reports in React
@@ -37,26 +38,37 @@ A full-stack web app to visualize Google Analytics data with secure OAuth login.
 •	cd Google-Analytics-Dashboard
    
 2. Configure Environment Variables
+   
    - Add `.env` in `/backend` with:
+     
 •	GOOGLE_CLIENT_ID=your_client_id
+
 •	GOOGLE_CLIENT_SECRET=your_secret
+
 •	JWT_SECRET=your_jwt_secret
 
 3. Run Backend
+   
 Bash:
 •	cd backend
+
 •	npm install
+
 •	node server.js  # Runs on http://localhost: your_port
 
-4.  Run Frontend
+5.  Run Frontend
 Bash:
 •	cd ../client
+
 •	npm install
+
 •	npm start  # Runs on http://localhost:3000
 
 🔧 Key Features
 - Google OAuth 2.0 authentication
+  
 - GA4 data visualization
+  
 - JWT-secured API endpoints
 
 📂 Project Structure
