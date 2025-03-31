@@ -78,9 +78,12 @@ Bash:
 - JWT-secured API endpoints
 
 📂 Project Structure
+
 Project/
-├── backend/      # Node.js server
+├── backend/ # Node.js server
+
 ├── client/       # React frontend
+
 └── .env          # Environment variables
 
  🌐 Access
