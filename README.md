@@ -34,12 +34,14 @@ A full-stack web app to visualize Google Analytics data with secure OAuth login.
 1. Clone the repository
    
    Bash:
+   
 •	git clone https://github.com/your-username/Google-Analytics-Dashboard.git
+
 •	cd Google-Analytics-Dashboard
    
-2. Configure Environment Variables
+3. Configure Environment Variables
    
-   - Add `.env` in `/backend` with:
+- Add `.env` in `/backend` with:
      
 •	GOOGLE_CLIENT_ID=your_client_id
 
@@ -50,6 +52,7 @@ A full-stack web app to visualize Google Analytics data with secure OAuth login.
 3. Run Backend
    
 Bash:
+
 •	cd backend
 
 •	npm install
@@ -57,7 +60,9 @@ Bash:
 •	node server.js  # Runs on http://localhost: your_port
 
 5.  Run Frontend
+   
 Bash:
+
 •	cd ../client
 
 •	npm install
@@ -65,6 +70,7 @@ Bash:
 •	npm start  # Runs on http://localhost:3000
 
 🔧 Key Features
+
 - Google OAuth 2.0 authentication
   
 - GA4 data visualization
