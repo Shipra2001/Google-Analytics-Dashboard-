@@ -2,7 +2,9 @@
 A full-stack web app to visualize Google Analytics data with secure OAuth login.
 
 ✨ Features
+
 🔒 Secure Authentication
+
 •	Google OAuth 2.0 login flow
 
 •	JWT token-based session management
@@ -13,6 +15,7 @@ A full-stack web app to visualize Google Analytics data with secure OAuth login.
 •	Displays reports in React
 
 ⚡ Tech Stack
+
 •	Backend: Node.js, Express.js
 
 •	Frontend: React.js
@@ -26,7 +29,9 @@ A full-stack web app to visualize Google Analytics data with secure OAuth login.
 •	Additional Tools: Dotenv (Environment Variables), Portfinder (Dynamic Port Allocation)
 
 🚀 Setup
+
 1. Clone the repository
+   
    Bash:
 •	git clone https://github.com/your-username/Google-Analytics-Dashboard.git
 •	cd Google-Analytics-Dashboard
@@ -36,6 +41,7 @@ A full-stack web app to visualize Google Analytics data with secure OAuth login.
 •	GOOGLE_CLIENT_ID=your_client_id
 •	GOOGLE_CLIENT_SECRET=your_secret
 •	JWT_SECRET=your_jwt_secret
+
 3. Run Backend
 Bash:
 •	cd backend
