@@ -80,6 +80,7 @@ Bash:
 📂 Project Structure
 
 Project/
+
 ├── backend/ # Node.js server
 
 ├── client/       # React frontend
