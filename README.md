@@ -33,13 +33,13 @@ A full-stack web app to visualize Google Analytics data with secure OAuth login.
 
 1. Clone the repository
    
-   Bash:
+Bash:
    
 •	git clone https://github.com/your-username/Google-Analytics-Dashboard.git
 
 •	cd Google-Analytics-Dashboard
    
-3. Configure Environment Variables
+2. Configure Environment Variables
    
 - Add `.env` in `/backend` with:
      
@@ -59,7 +59,7 @@ Bash:
 
 •	node server.js  # Runs on http://localhost: your_port
 
-5.  Run Frontend
+4.  Run Frontend
    
 Bash:
 
